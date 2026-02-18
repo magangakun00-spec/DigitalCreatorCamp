@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+      /* Environment */
+      "target": "ES2020",
+      "lib": ["ES2020", "DOM", "DOM.Iterable"],
+      "useDefineForClassFields": true,
+  
+      /* React */
+      "jsx": "react-jsx",
+  
+      /* Bundler */
+      "module": "ESNext",
+      "moduleResolution": "bundler",
+      "allowImportingTsExtensions": true,
+      "isolatedModules": true,
+      "moduleDetection": "force",
+      "noEmit": true,
+  
+      /* Alias */
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      },
+  
+      /* Type safety (sinkron dengan root tsconfig) */
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+  
+      /* Utils */
+      "skipLibCheck": true,
+      "types": ["vitest/globals"]
+    },
+    "include": ["src"]
+  }
+  

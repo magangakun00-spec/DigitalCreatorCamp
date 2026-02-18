@@ -1,0 +1,22 @@
+{
+    "files": [],
+    "references": [
+      { "path": "./tsconfig.app.json" },
+      { "path": "./tsconfig.node.json" }
+    ],
+    "compilerOptions": {
+      /* Global rules (menghilangkan error Edge Tools) */
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+  
+      /* Base alias */
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      },
+  
+      /* Safe defaults */
+      "skipLibCheck": true
+    }
+  }
+  
